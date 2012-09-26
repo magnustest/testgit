@@ -20,6 +20,7 @@ public class Test {
 	private static void initDb()
 	{
 		String db="inited";
+		
 	}
 	private static void calc()
 	{
