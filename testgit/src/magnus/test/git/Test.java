@@ -24,6 +24,7 @@ public class Test {
 	private static void calc()
 	{
 		System.out.println("calculated");
+		System.out.println("changed");
 	}
 	
 	
