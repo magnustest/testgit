@@ -6,6 +6,9 @@ public class Test {
 	{
 		System.out.println("Tst");
 		init();
+		Invoice i =new Invoice();
+		i.prepareInvoice();
+		i.sendInvoice();
 	}
 	private static void init()
 	{
