@@ -10,6 +10,13 @@ public class Test {
 	private static void init()
 	{
 		//Do some initing
+		initDb();
+		System.out.println("Done initing");
+		
+	}
+	private static void initDb()
+	{
+		String db="inited";
 	}
 	
 	
