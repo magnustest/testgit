@@ -31,6 +31,6 @@ public class Invoice {
 	private void validateInvoice()
 	{
 		System.out.println("validated");
-		System.out.println("validated");
 	}
+
 }
