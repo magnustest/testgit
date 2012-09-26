@@ -18,6 +18,10 @@ public class Test {
 	{
 		String db="inited";
 	}
+	private static void calc()
+	{
+		System.out.println("calculated");
+	}
 	
 	
 }
