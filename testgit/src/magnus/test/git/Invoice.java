@@ -17,6 +17,7 @@ public class Invoice {
 	public void prepareInvoice()
 	{
 		prepared=true;
+		validateInvoice();
 		System.out.println("prepared");
 	}
 	public void sendInvoice()
@@ -26,5 +27,9 @@ public class Invoice {
 		else
 			System.out.println("SENT!");
 		
+	}
+	private void validateInvoice()
+	{
+		System.out.println("validated");
 	}
 }
